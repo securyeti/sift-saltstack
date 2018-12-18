@@ -18,9 +18,6 @@ include:
   - sift.config.user.pdfs
   - sift.config.user.rekall
   - sift.config.user.symlinks
-  - sift.config.user.terminal
-  #- sift.config.user.theme    # Likely to break a server build
-  #- sift.config.user.unity    # Likely to break a server build
   - sift.config.user.user
 
 sift-version-file:
@@ -49,7 +46,4 @@ sift-version-file:
       - sls: sift.config.user.pdfs
       - sls: sift.config.user.rekall
       - sls: sift.config.user.symlinks
-      - sls: sift.config.user.terminal
-      #- sls: sift.config.user.theme
-      #- sls: sift.config.user.unity
       - sls: sift.config.user.user
