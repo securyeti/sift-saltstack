@@ -5,6 +5,7 @@ include:
   - sift.tools
   - sift.scripts
   - sift.config
+  - sift.gui
 
 sift-version-file:
   file.managed:
@@ -19,3 +20,4 @@ sift-version-file:
       - sls: sift.tools
       - sls: sift.scripts
       - sls: sift.config
+      - sls: sift.gui
